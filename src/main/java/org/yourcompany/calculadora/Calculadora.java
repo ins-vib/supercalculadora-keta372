@@ -20,6 +20,10 @@ public class Calculadora {
 
         //Llençmoneda
         System.out.println("Resultats del llençament de 50 monedes:" + llençmoneda(50) + " cares.");
+        
+        //Preucinema
+        double preuFinal = preucinema(5.0, true, false);
+        System.out.println("El preu final de la entrada és: " + preuFinal + " euros.");
 
         // Exemples de crida per al mètode sumaPrimersNumeros
         // System.out.println("Suma dels primers 5 números: " + sumaPrimersNumeros(5));
@@ -68,6 +72,17 @@ public class Calculadora {
         return cara;
     }
 
+    public static double preucinema(double preuBase, boolean esCapSetmana, boolean teCarnetJove) {
+    double preu = preuBase;
+    if (esCapSetmana == true) {
+        preu = preu * 1.10; // Increment del 10% si és cap de setmana
+    }
+    if (teCarnetJove == true) {
+        preu = preu * 0.85; // Descompte del 15% si té carnet jove
+    }
+    return preu;
+    }
+
 
 
     /**
@@ -89,6 +104,4 @@ public class Calculadora {
         }
         return comptador;
     }
-
-
 }
