@@ -1,6 +1,6 @@
-
-
 package org.yourcompany.calculadora;
+
+import java.util.Random;
 
 /**
  *
@@ -17,6 +17,9 @@ public class Calculadora {
         System.out.println("Nombre de dígits de 56789: " + nombreDigits(56789));
         System.out.println("Nombre de dígits de -101010: " + nombreDigits(-101010));
         System.out.println("Nombre de dígits de 0: " + nombreDigits(0));
+
+        //Llençmoneda
+        System.out.println("Resultats del llençament de 50 monedes:" + llençmoneda(50) + " cares.");
 
         // Exemples de crida per al mètode sumaPrimersNumeros
         // System.out.println("Suma dels primers 5 números: " + sumaPrimersNumeros(5));
@@ -41,6 +44,31 @@ public class Calculadora {
        
         
     }
+
+    public static int llençmoneda(int llençaments) {
+        Random aleatori = new Random();
+        int cara = 0; 
+        //int creu = 0;
+        int comptador = 0;
+        
+        while (comptador < llençaments) {
+            int resultat = aleatori.nextInt(2);
+            
+            if (resultat == 0) {
+                //System.out.println("Cara");
+                cara++;
+            //} else {
+                //System.out.println("Creu");
+                //creu++;
+            }
+            comptador++;
+        }
+        //System.out.println("Cares: " + cara);
+        //System.out.println("Creus: " + creu);
+        return cara;
+    }
+
+
 
     /**
      * Calcula el nombre de dígits d’un número enter.
