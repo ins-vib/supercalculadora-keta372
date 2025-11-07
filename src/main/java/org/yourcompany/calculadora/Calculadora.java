@@ -26,24 +26,24 @@ public class Calculadora {
         System.out.println("El preu final de la entrada és: " + preuFinal + " euros.");
 
         // Exemples de crida per al mètode sumaPrimersNumeros
-        // System.out.println("Suma dels primers 5 números: " + sumaPrimersNumeros(5));
-        // System.out.println("Suma dels primers 10 números: " + sumaPrimersNumeros(10));
-        // System.out.println("Suma dels primers 15 números: " + sumaPrimersNumeros(15));
+        //System.out.println("Suma dels primers 5 números: " + sumaPrimersNumeros(5));
+        //System.out.println("Suma dels primers 10 números: " + sumaPrimersNumeros(10));
+        //System.out.println("Suma dels primers 15 números: " + sumaPrimersNumeros(15));
 
         // Exemples de crida per al mètode calcularFactorial
-        // System.out.println("Factorial de 5: " + calcularFactorial(5));
-        // System.out.println("Factorial de 7: " + calcularFactorial(7));
-        // System.out.println("Factorial de 10: " + calcularFactorial(10));
+        //System.out.println("Factorial de 5: " + calcularFactorial(5));
+        //System.out.println("Factorial de 7: " + calcularFactorial(7));
+        //System.out.println("Factorial de 10: " + calcularFactorial(10));
 
         // Exemples de crida per al mètode sumaQuadrats
-        // System.out.println("Suma dels quadrats dels primers 3 números: " + sumaQuadrats(3));
-        // System.out.println("Suma dels quadrats dels primers 5 números: " + sumaQuadrats(5));
-        // System.out.println("Suma dels quadrats dels primers 7 números: " + sumaQuadrats(7));
+        //System.out.println("Suma dels quadrats dels primers 3 números: " + sumaQuadrats(3));
+        //System.out.println("Suma dels quadrats dels primers 5 números: " + sumaQuadrats(5));
+        //System.out.println("Suma dels quadrats dels primers 7 números: " + sumaQuadrats(7));
 
         // Exemples de crida per al mètode calcularPotencia
-        // System.out.println("2 elevat a la potència 3: " + calcularPotencia(2, 3));
-        // System.out.println("5 elevat a la potència 4: " + calcularPotencia(5, 4));
-        // System.out.println("3 elevat a la potència 5: " + calcularPotencia(3, 5));
+        //System.out.println("2 elevat a la potència 3: " + calcularPotencia(2, 3));
+        //System.out.println("5 elevat a la potència 4: " + calcularPotencia(5, 4));
+        //System.out.println("3 elevat a la potència 5: " + calcularPotencia(3, 5));
 
        
         
